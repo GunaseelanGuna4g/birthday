@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=" https://cdn.jsdelivr.net/npm/flipdown@0.3.2/src/flipdown.min.js "></script>
+<link href=" https://cdn.jsdelivr.net/npm/flipdown@0.3.2/dist/flipdown.min.css " rel="stylesheet">
+    <title>Counter</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: rgb(187, 187, 187);
+        }
+        .container{
+            height: 100%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+        }
+        .flipdown{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;margin-bottom: 60px;color: rgb(61, 43, 226);">Muthumari</h1>
+        <h4 style="color: blue;text-align: center;">Advance Happy Birthday attai ponne 🎂🥳</h4>
+        <div id="flipdown" class="flipdown"></div>
+        <p style="margin-top: 20px;">BIRTHDAY DATE: 30-07-2023</p>
+    </div>
+    <script>
+        new FlipDown(1690655400).start();
+    </script>    
+</body>
+</html>
